@@ -20,7 +20,8 @@ In this study we used the Whickham dataset to classify individuals as alive or d
 
 ***Consequences of Overfitting:***<br>
 * ***Model Complexity:*** An overfitted model is too complex and captures noise in the training data, leading to poor generalization.
-* ***Model Selection:*** To avoid overfitting, it's crucial to select a model that balances complexity and performance, often by using cross-validation to find an optimal max_depth.
+
+***Model Selection:*** To avoid overfitting, it's crucial to select a model that balances complexity and performance, often by using cross-validation to find an optimal max_depth.
 
 In this study, we determined when a decision tree begins to overfit.<br>
 ***Data Preparation:*** Categorical variables (smoker, outcome) were converted into numerical variables and data split into varying training and test sets.<br>
