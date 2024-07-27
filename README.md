@@ -27,7 +27,7 @@ In this study, we determined when a decision tree begins to overfit.<br>
 ***Model Training and Evaluation:*** Decision tree models with varying max_depth values from 1 to 10 were trained, computing the accuracy on both the training and test sets <br>
 ***Plotting:*** The results were plotted to visualize how accuracy changes with different max_depth values inorder to identify the point where the model starts to overfit.
 
-![Alt Text](C:\Users\Luswata\Dropbox\ML_AI_UCBerkeley\MODULE_14_DECISION_TREES\graphs\Acc_depth.png)
+![Acc_depth](assets/Acc_depth.png)
 
 ***Interpretation:***  <br>
 * ***Training Accuracy:*** Increases with tree depth. A deeper tree can fit the training data more precisely.<br>
@@ -46,7 +46,7 @@ In this study, we determined when a decision tree begins to overfit.<br>
 
 ***Fitting a Decision Tree Classifier with specific hyperparameters; max_depth=3, min_samples_leaf=1, and min_samples_split=2***
 
-![Alt Text](C:\Users\Luswata\Dropbox\ML_AI_UCBerkeley\MODULE_14_DECISION_TREES\graphs\decision_tree.png)
+![Decision Tree](assets/decision_tree.png)
 
 ***Summary*** <br>
 ***For ages ≤ 64.50:***
