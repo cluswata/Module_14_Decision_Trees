@@ -24,6 +24,7 @@ In this study we used the Whickham dataset to classify individuals as alive or d
 ***Model Selection:*** To avoid overfitting, it's crucial to select a model that balances complexity and performance, often by using cross-validation to find an optimal max_depth.
 
 In this study, we determined when a decision tree begins to overfit.<br>
+
 ***Data Preparation:*** Categorical variables (smoker, outcome) were converted into numerical variables and data split into varying training and test sets.<br>
 ***Model Training and Evaluation:*** Decision tree models with varying max_depth values from 1 to 10 were trained, computing the accuracy on both the training and test sets <br>
 ***Plotting:*** The results were plotted to visualize how accuracy changes with different max_depth values inorder to identify the point where the model starts to overfit.
